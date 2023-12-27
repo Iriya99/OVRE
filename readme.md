@@ -2,7 +2,7 @@
 
 **Moments-OVRE** is a large-scale video relation dataset containing diverse 3-second videos from Multi-Moments in Time. Action in the video are densely annotated with corresponding relation triplets. We provide **Moments-OVRE** dataset and baselines in this repo.
 
-![contra](C:\Users\mimi\Desktop\contra.png)
+![contra](fig/contra.png)
 
 ## Data Preparation
 
