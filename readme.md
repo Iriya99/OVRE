@@ -30,7 +30,7 @@ torchrun --nproc_per_node 8 main.py --epochs 50 --version patch
 #### Testing
 
 ```bash
-torchrun --nproc_per_node 1 main_patch.py --load_epoch 50 --bs 1 --mode test --version patch
+torchrun --nproc_per_node 1 main.py --load_epoch 50 --bs 1 --mode test --version patch
 python evaluation.py --result_path your_result_path
 ```
 
