@@ -22,13 +22,14 @@ hypos = {}
 
 import argparse
 parser = argparse.ArgumentParser()
+parser.add_argument("--root", default="./results")
 parser.add_argument("--result_path", default="patch_50.txt")
 args = parser.parse_args()
 
-with open("/home/wtt/results_/results_test.txt", "r") as f:
+with open(f"{args.root}/result_gt.txt", "r") as f:
     gts = f.readlines()
 
-with open("/home/wtt/results/" + args.result_path, "r") as f:
+with open(f"{args.root}/{args.result_path}", "r") as f:
     gens = f.readlines()
 
 sep = " / "
