@@ -22,7 +22,7 @@ hypos = {}
 
 import argparse
 parser = argparse.ArgumentParser()
-parser.add_argument("--result_path", default="valor10.txt")
+parser.add_argument("--result_path", default="patch_50.txt")
 args = parser.parse_args()
 
 with open("/home/wtt/results_/results_test.txt", "r") as f:
